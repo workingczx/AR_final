@@ -1,0 +1,66 @@
+{
+  "dataset": "NasalSeg v2 / P002",
+  "source": "https://zenodo.org/records/13893419",
+  "source_archive_md5": "ba83df47974d907798542101fa43ac7d",
+  "source_space": "DICOM LPS in millimetres",
+  "ct_spacing_mm": [
+    0.5859375,
+    0.5859375,
+    1.5000000000000002
+  ],
+  "air_threshold_hu": -470,
+  "segmentation_label": 3,
+  "separate_collision_meshes": true,
+  "entry_pose": {
+    "tip_mm": [
+      -117.29104660764116,
+      -317.6725776794019,
+      -537.2121207149916
+    ],
+    "camera_to_world_rotation": [
+      [
+        0.8574929257125442,
+        0.3030457633656632,
+        0.41577535720514225
+      ],
+      [
+        -0.5144957554275265,
+        0.5050762722761054,
+        0.6929589286752371
+      ],
+      [
+        0.0,
+        -0.8081220356417687,
+        0.5890150893739515
+      ]
+    ]
+  },
+  "entry_reference_mm": [
+    -113.96484375000003,
+    -312.12890625,
+    -532.5
+  ],
+  "entry_roi": {
+    "range_from_reference_mm": [
+      -25,
+      10
+    ],
+    "radius_mm": 6.5
+  },
+  "shaft": {
+    "tip_to_tail_mm": 14.0,
+    "capsule_radius_mm": 0.8
+  },
+  "camera_offset_mm": 0.5,
+  "window_radius_mm": 12.0,
+  "difference": {
+    "center_mm": [
+      -113.37890625,
+      -307.1484375,
+      -529.554931640625
+    ],
+    "peak_displacement_mm": 0.6,
+    "support_radius_mm": 3.8,
+    "changed_face_count": 248
+  }
+}

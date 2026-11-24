@@ -1,0 +1,23 @@
+{
+  "result": "pass",
+  "accepted_insertion_steps": 34,
+  "validated_insertion_mm": 20.400000000000087,
+  "red_pixels_when_within_window": 314,
+  "changed_faces": 904,
+  "checks": [
+    "entry clearance",
+    "insertion",
+    "withdrawal",
+    "aiming",
+    "wall rejection with unchanged pose",
+    "swept path rejection with safe endpoints",
+    "shaft rotation rejection",
+    "camera transform",
+    "updated tip image",
+    "window center",
+    "opacity control",
+    "local synthetic difference",
+    "difference geometry correspondence",
+    "source-to-Unity scale and origin"
+  ]
+}

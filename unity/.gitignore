@@ -1,0 +1,8 @@
+/Library/
+/Temp/
+/Obj/
+/Logs/
+/UserSettings/
+/Builds/
+/MemoryCaptures/
+.DS_Store
